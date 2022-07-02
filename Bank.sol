@@ -1,8 +1,9 @@
-pragma solidity 0.4.25;
+//SPDX-License-Identifier: UNLICENSED
+pragma solidity 0.8.15;
 
 contract Bank {
     int bal;
-    constructor() public{
+    constructor(){
         bal =1;
     }
 
